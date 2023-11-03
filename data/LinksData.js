@@ -106,12 +106,12 @@ const webLinks = [
         icon: '/opensea.svg',
         on: false
     },
-    // Install section
+    // My current projects
     {
-        title: 'Use this template',
-        url: 'https://github.com/realvjy/nxt-lnk/generate',
-        type: 'install',
-        icon: '/use.png',
+        title: 'Urapolku.fi',
+        url: 'https://urapolku.fi/',
+        type: 'other',
+        icon: '/Urapolku_9.png',
         on: true
     },
     {
