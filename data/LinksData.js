@@ -106,13 +106,13 @@ const webLinks = [
         icon: '/opensea.svg',
         on: false
     },
-    // Install
+    // Install section
     {
-        title: 'Urapolku.fi',
-        url: 'https://urapolku.fi/',
-        type: 'other',
-        icon: '/Urapolku_9.png',
-        on: true
+        title: 'Use this template',
+        url: 'https://github.com/realvjy/nxt-lnk/generate',
+        type: 'install',
+        icon: '/use.png',
+        on: false
     },
     {
         title: 'Deploy on Vercel',
@@ -162,5 +162,3 @@ const webLinks = [
 ];
 
 export default webLinks;
-
-
