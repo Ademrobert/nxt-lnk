@@ -110,7 +110,7 @@ const webLinks = [
     {
         title: 'Urapolku.fi',
         url: 'https://urapolku.fi/',
-        type: 'other',
+        type: 'social',
         icon: '/Urapolku_9.png',
         on: true
     },
