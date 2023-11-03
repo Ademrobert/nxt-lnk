@@ -16,5 +16,4 @@ export default {
         ],
         site_name: 'AdemOttoman',
     },
-    twitter: {
 };
