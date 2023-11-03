@@ -2,11 +2,11 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        title: 'next lnks by realvjy',
-        url: 'https://vjy.me',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
+        title: 'AdemOttoman',
+        url: 'https://ottoman.bio',
+        description: 'Hello! I am Adem Ottoman a young entrepreneur/Project Manager & other things :DD',
         locale: 'en_EN',
-        keywords: 'designer, product designer, illustrator, indian designer, vijay verma, realvjy, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, vijay realvjy, indian ui designer, design india, overlayz, nft art',
+        keywords: 'Adem, project manager, Adem Ottoman, Finland, finland, entrepreneur, Urapolku, urapolku',
         images: [
             {
                 width: 1200,
@@ -14,11 +14,7 @@ export default {
                 url: `https://vjy.me/preview.jpg`,
             },
         ],
-        site_name: 'realvjy',
+        site_name: 'AdemOttoman',
     },
     twitter: {
-        handle: '@realvjy',
-        site: 'vjy.me',
-        cardType: 'summary_large_image',
-    },
 };
