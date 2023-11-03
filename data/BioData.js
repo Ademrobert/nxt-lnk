@@ -2,8 +2,8 @@
 const bioData = [
     {
         name: 'Adem Ottoman',
-        username: 'nxtlnk.vercel.app',
-        url: 'https://nxtlnk.vercel.app',
+        username: 'The Ottoman Empire',
+        url: 'AdemOttoman.com',
         titleImg: true,
         avatar: '/avatar.png',
         nftAvatar: true,
