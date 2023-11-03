@@ -4,7 +4,7 @@ const bioData = [
         name: 'Adem Ottoman',
         username: 'The Ottoman Empire',
         url: 'AdemOttoman.com',
-        titleImg: true,
+        titleImg: false,
         avatar: '/avatar.png',
         nftAvatar: true,
         description: 'Hello! I am Adem a young entrepreneur/Project Manager & other things :DD',
