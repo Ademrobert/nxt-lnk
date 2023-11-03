@@ -106,7 +106,7 @@ const webLinks = [
         icon: '/opensea.svg',
         on: false
     },
-    // What am I building?
+    // Install
     {
         title: 'Urapolku.fi',
         url: 'https://urapolku.fi/',
