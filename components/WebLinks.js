@@ -64,6 +64,11 @@ const Links = () => {
     return el.type === "other" && el.on
   });
 
+    // Get data for activities section
+  const activities = allLinks.filter((el) => {
+    return el.type === "activitie" && el.on
+  });
+  
   return (
     <LinkWrapper>
       <LinkContainer>
@@ -104,6 +109,24 @@ const Links = () => {
 
           {/* Weblinks started */}
           <WebLinkWrap>
+
+            {/* Social Icon */}
+            <LinkSection className="activitie">
+              <div className="iconsonly">
+                {
+                  activities.map((i) => {
+                    return (
+                      <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
+                        <LinkBox className="socialIcon">
+                          <img src={i.icon} style={{ filter: 'var(--img)' }} />
+                        </LinkBox>
+                      </a>
+                    )
+                  })
+                }
+              </div>
+            </LinkSection>
+            
             {/* Social Icon */}
             <LinkSection className="social">
               <div className="iconsonly">
